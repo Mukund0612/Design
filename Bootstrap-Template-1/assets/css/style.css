@@ -1,6 +1,15 @@
-.bgimg{background-image: url(../images/header-1.jpg);background-size: cover; width: 100%;height: 660px;background-attachment: fixed;position:relative;background-repeat: no-repeat;}
+.bgimg{background-image: url(../images/header-1.jpg);background-size: cover; width: 100%;height: 100vh;background-attachment: fixed;position:relative;background-repeat: no-repeat;}
 .bgimg .navbar{z-index: 3;}
 .bgimg::after{content: '';position: absolute;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.5);top: 0;left: 0;right: 0;bottom: 0;z-index: 1;}
 .headerset{position: absolute; z-index: 2; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .headerset h2{font-size: 42px;}
 .headerset h1{font-size: 72px; font-weight: bold;}
+
+/* ourservices */
+.our-service{margin: 100px 0px;}
+
+.row-setting{margin: 80px 0px;}
+.imgsetting{border-radius: 50%;height: 100px;width: 100px;}
+.imgsetting svg{margin-top: 27px;}
+.row-setting p{color: #6c757d;padding: 10px;}
+.row-setting h2{margin: 20px 0px; font-weight: bold;font-size: 30px;}
