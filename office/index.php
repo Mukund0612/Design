@@ -133,30 +133,24 @@
             <div class="col-lg-1">
                 <p>Get A FREE Estimate</p> 
             </div>
-            <div class="col-lg-9">
-                <ul>
-                    <li>
-                        <input type="text" placeholder="Name">
-                    </li>
-                    <li>
-                        <input type="text" placeholder="Email">
-                    </li>
-                    <li>
-                        <input type="text" placeholder="Phone">
-                    </li>
-                    <li>
-                        <select name="service">
-                            <option value="">Service</option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                    </li>
-                    <li>
-                        <a href="#" class="btn btn-danger">Send</a>
-                    </li>
-                </ul> 
-                <p>By submitting this from, you are agreeing to the privacy policy</p>
+            <div class="col-lg-1">
+                <input type="text" class="form-control" placeholder="Name"/>
             </div>
+            <div class="col-lg-1">
+                <input type="text" class="form-control" placeholder="Email"/>
+            </div>
+            <div class="col-lg-1">
+                <input type="text" class="form-control" placeholder="Phone"/>
+            </div>
+            <div class="col-lg-1">
+                <select class="form-control">
+                    <option value="">Service</option>
+                </select>
+            </div>
+            <div class="col-lg-1">
+                <button class="btn btn-danger">Send</button>
+            </div>
+                <p>By submitting this from, you are agreeing to the privacy policy</p>
         </div>
     </div>
 
